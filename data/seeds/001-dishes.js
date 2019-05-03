@@ -8,8 +8,7 @@ exports.seed = function(knex, Promise) {
         { name: "American dish" },
         { name: "Spanish dish" },
         { name: "Canadian dish" },
-        { name: "European dish" },
-        { name: "Asian dish" }
+        { name: "European dish" }
       ]);
     });
 };
