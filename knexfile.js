@@ -12,7 +12,7 @@ module.exports = {
     seeds: {
       directory: "./data/seeds"
     },
-
+    useNullAsDefault: true, // needed for sqlite
     // gotcha: SQLite does not enforce FKs by default!!
     pool: {
       afterCreate: (connection, done) => {
